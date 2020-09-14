@@ -1,0 +1,13 @@
+.ShoppingList {
+  flex: 1 1 100%;
+  max-width: 100%;
+  padding: 30px 1.5em;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 1200px) {
+    flex: 1 1 25%;
+    max-width: 25%;
+  }
+}

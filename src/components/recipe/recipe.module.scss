@@ -1,0 +1,11 @@
+.Recipe {
+  flex: 1 1 100%;
+  max-width: 100%;
+  background-color: #f9f5f3;
+
+  @media screen and (min-width: 1000px) {
+    flex: 1 1 60%;
+    max-width: 60%;
+    min-height: 600px;
+  }
+}

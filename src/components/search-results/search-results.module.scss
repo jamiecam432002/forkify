@@ -1,0 +1,11 @@
+.SearchResults {
+  flex: 1 1 100%;
+  max-width: 100%;
+  padding: 30px 1.5em;
+  background-color: #fff;
+
+  @media screen and (min-width: 1000px) {
+    flex: 1 1 40%;
+    max-width: 40%;
+  }
+}

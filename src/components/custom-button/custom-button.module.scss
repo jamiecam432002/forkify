@@ -1,0 +1,17 @@
+.CustomButton {
+  padding: 0.8em 1.4em;
+  font-size: 0.8em;
+  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+  border-radius: 10em;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+
+  @media screen and (min-width: 768px) {
+    font-size: 1em;
+  }
+}
