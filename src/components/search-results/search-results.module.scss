@@ -4,6 +4,10 @@
   padding: 30px 1.5em;
   background-color: #fff;
 
+  h2 {
+    padding-right: 15px;
+  }
+
   @media screen and (min-width: 1000px) {
     flex: 1 1 40%;
     max-width: 40%;

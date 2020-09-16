@@ -3,6 +3,18 @@
 *:after {
   box-sizing: border-box;
 }
+body,
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "Lato", sans-serif;
+  height: auto;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  background-color: #587b7f;
+}
 
 input,
 textarea {
@@ -14,9 +26,27 @@ textarea {
   font-weight: 100;
   outline: 0;
 }
-
-.App {
+h2 {
+  margin-top: 0;
+  font-weight: 600;
+  color: #f59a83;
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
   text-align: center;
+  transform: skewY(-3deg);
+  text-shadow: 1px 1px 1px #000;
+
+  @media screen and (min-width: 800px) {
+    font-size: 2em;
+  }
+}
+h3 {
+  font-weight: 400;
+}
+.App {
+  width: 100%;
+  max-width: 1368px;
+  margin: 0 auto;
 }
 .app-container {
   display: flex;

@@ -1,0 +1,56 @@
+.ResultLink,
+.ResultLink:visited {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em 0.5em 0;
+  transition: all 0.3s;
+  border-right: 1px solid #fff;
+  text-decoration: none;
+
+  .ResultFig {
+    flex: 0 0 4em;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 4em;
+    margin: 0 20px 0 0;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    &:before {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+      opacity: 0.4;
+    }
+  }
+  .ResultFig img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: all 0.3s;
+  }
+  .ResultName {
+    font-size: 0.9em;
+    color: #f59a83;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+    text-align: left;
+    margin-top: 0;
+  }
+  .ResultAuthor {
+    font-size: 0.75em;
+    color: #968b87;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+  }
+}
